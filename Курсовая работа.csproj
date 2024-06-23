@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBC7A135-B4FC-4849-8C07-3FF3AAD97856}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Курсовая_работа</RootNamespace>
+    <AssemblyName>Курсовая работа</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bullet.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Effects.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Fence.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="Music.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Records.cs" />
+    <Compile Include="Save.cs" />
+    <Compile Include="Shop.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character_tank_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character_tank_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character_tank_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGrund_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGrund_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_Tank_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_Tank_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Shooting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Explosion_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_Tank_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flame_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Shooting_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Shooting_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Effect_Enemy_Shooting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlownTank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Records.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGroundMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecordPlayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecordsTableRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecordsTableLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecordBackMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecordsTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingMusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingBackMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopC3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopF2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutenemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutgame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutcontrol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutGamePanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutTanksPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutControlPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\complex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\average.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

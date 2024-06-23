@@ -1,0 +1,31 @@
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Form1.resources
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Properties.Resources.resources
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.GenerateResource.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.CoreCompileInputs.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.exe.config
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.exe
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.pdb
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.exe
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.pdb
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.AssemblyReference.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Debug\Interop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Interop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.ResolveComReference.cache
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.exe.config
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.exe
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.pdb
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\bin\Debug\Interop.WMPLib.dll
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Interop.WMPLib.dll
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.ResolveComReference.cache
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Form1.resources
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Properties.Resources.resources
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.exe
+C:\Users\Acer\Desktop\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.pdb

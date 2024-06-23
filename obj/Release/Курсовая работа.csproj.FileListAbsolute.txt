@@ -1,0 +1,15 @@
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Release\Курсовая работа.exe.config
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Release\Курсовая работа.exe
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Release\Курсовая работа.pdb
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Release\Interop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая работа.csproj.AssemblyReference.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Interop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая работа.csproj.ResolveComReference.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая_работа.Form1.resources
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая_работа.Properties.Resources.resources
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая работа.csproj.GenerateResource.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая работа.csproj.CoreCompileInputs.cache
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая работа.exe
+C:\Users\Armenia\Desktop\Гор\третий семестр ЯВУ_C#\Курсовая работа\Курсовая работа\obj\Release\Курсовая работа.pdb
